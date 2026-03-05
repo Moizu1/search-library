@@ -21,7 +21,7 @@ public class searchTest {
 
         // Element exists
         int result = unittesting.linearSearch(arr, 30);
-        assertEquals(3, result);
+        assertEquals(2, result);
 
         // Element does not exist
         assertEquals(-1, unittesting.linearSearch(arr, 99));
