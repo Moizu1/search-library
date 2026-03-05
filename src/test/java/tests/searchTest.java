@@ -40,4 +40,4 @@ public class searchTest {
         // Element does not exist
         assertEquals(-1, unittesting.jumpSearch(arr, 5));
     }
-}
+    }
