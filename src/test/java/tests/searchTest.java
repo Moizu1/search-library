@@ -5,18 +5,16 @@ import org.junit.Test;
 
 public class searchTest {
 
-    @Test
+	
+	@Test
     public void testBinarySearch() {
         int[] arr = {1, 3, 5, 7, 9, 11};
 
-        // Element exists
         int result = unittesting.binarySearch(arr, 7);
         assertEquals(3, result);
 
-        // Element does not exist
         assertEquals(-1, unittesting.binarySearch(arr, 4));
     }
-
     @Test
     public void testLinearSearch() {
         int[] arr = {10, 20, 30, 40, 50};
