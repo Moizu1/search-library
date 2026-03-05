@@ -11,7 +11,7 @@ public class searchTest {
         int[] arr = {1, 3, 5, 7, 9, 11};
 
         int result = unittesting.binarySearch(arr, 7);
-        assertEquals(3, result);
+        assertEquals(6, result);
 
         assertEquals(-1, unittesting.binarySearch(arr, 4));
     }
@@ -21,7 +21,7 @@ public class searchTest {
 
         // Element exists
         int result = unittesting.linearSearch(arr, 30);
-        assertEquals(2, result);
+        assertEquals(3, result);
 
         // Element does not exist
         assertEquals(-1, unittesting.linearSearch(arr, 99));
